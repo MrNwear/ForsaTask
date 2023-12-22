@@ -6,9 +6,15 @@
         "retail":"Retail",
         "offers":"Offers",
         "profile":"Profile"
+      },
+      "home":{
+        "get-your-limit-title":"Get your limit",
+        "get-your-limit-subtitle":"Complete your infoand get up to EGP 100,000",
+        "view-all":"View All",
+        "top-brands":"Top Brands in retail"
+
       }
-     
-  
+      
   }
   }
   

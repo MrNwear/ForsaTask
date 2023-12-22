@@ -6,6 +6,13 @@
         "retail":"التجار",
         "offers":"العروض",
         "profile":"حسابي"
+      },
+      "home":{
+        "get-your-limit-title":"احصل على الحد الخاص بك",
+        "get-your-limit-subtitle":"أكمل بياناتك واحصل على ما يصل إلى 100,000 جنيه مصري",
+        "view-all":"عرض الكل",
+        "top-brands":"افضل المنتجات"
+
       }
      
   
