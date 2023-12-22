@@ -24,6 +24,10 @@ const styles = ScaledSheet.create({
     columnGap:'15@s',
     borderRadius: '15@s',
   },
-  nikeOffer:{marginTop:-60,marginHorizontal:25}
+  nikeOffer:{marginTop:-60,marginHorizontal:25},
+  sectorItem:{
+    padding:4,
+    fontSize:14
+  }
 });
 export default styles;
