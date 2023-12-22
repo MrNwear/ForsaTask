@@ -1,21 +1,6 @@
-import AppContainer from 'navigation';
-import { StatusBar, StyleSheet, Text, View } from 'react-native';
-import HomeScreen from 'Screens/Home';
+import React from "react";
+import Bootstrap from "./bootstrap";
 
 export default function App() {
-  return (
-    <>
-    <StatusBar barStyle="light-content"/>
-   <AppContainer/>
-    </>
-  );
+  return <Bootstrap />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

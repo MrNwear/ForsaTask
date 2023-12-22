@@ -7,6 +7,8 @@ import COLORS from 'utils/colors';
 import Profile from 'Screens/Profile';
 import Offers from 'Screens/Offers';
 import Retail from 'Screens/Retail';
+import useKeyTranslation from 'utils/hooks/useKeyTranslation';
+
 export type AppStackNavigatorParams = {
   Home: {identifier: string} | undefined;
   Retail: {identifier: string} | undefined;
@@ -16,6 +18,7 @@ export type AppStackNavigatorParams = {
 };
 const Tab = createBottomTabNavigator<AppStackNavigatorParams>();
 const AppBottomTabs = () => {
+  const translate:any=useKeyTranslation("application.tabs");
   return (
     <>
     <Tab.Navigator
@@ -36,6 +39,7 @@ const AppBottomTabs = () => {
         component={HomeScreen}
         options={{
           headerShown: false,
+          title:translate("home"),
           tabBarIcon: ({focused}) => (
             <MaterialCommunityIcons
               name={focused ? 'home' : 'home-outline'}
@@ -53,6 +57,7 @@ const AppBottomTabs = () => {
         component={Retail}
         options={{
           headerShown: false,
+          title:translate("retail"),
           tabBarIcon: ({focused}) => (
             <EvilIcons
               name={"tag"}
@@ -67,8 +72,10 @@ const AppBottomTabs = () => {
       <Tab.Screen
         name="Offers"
         component={Offers}
+        
         options={{
           headerShown: false,
+          title:translate("offers"),
           tabBarIcon: ({focused}) => (
             <Ionicons
               name={focused ? 'heart' : 'heart-outline'}
@@ -85,6 +92,7 @@ const AppBottomTabs = () => {
         component={Profile}
         options={{
           headerShown: false,
+          title:translate("profile"),
           tabBarIcon: ({focused}) => (
             <MaterialCommunityIcons
               name={focused ? 'account' : 'account-outline'}
