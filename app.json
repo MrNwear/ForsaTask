@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "account-username"
+        }
+      ]
+    ],
     "name": "ForsaTask",
     "slug": "ForsaTask",
     "version": "1.0.0",

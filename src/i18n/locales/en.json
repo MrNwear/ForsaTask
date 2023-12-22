@@ -13,7 +13,13 @@
         "view-all":"View All",
         "top-brands":"Top Brands in retail"
 
-      }
+      },
+      "profile":{
+        "title":"Profile",
+        "share-app":"Share The App",
+        "change-language":"Change Language",
+        "language":"English"
+       }
       
   }
   }

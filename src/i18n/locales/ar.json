@@ -13,8 +13,12 @@
         "view-all":"عرض الكل",
         "top-brands":"افضل المنتجات"
 
-      }
-     
+      },
+     "profile":{
+      "title":"حسابي",
+      "change-language":"تغيير اللغه",
+      "language":"عربي"
+     }
   
   }
   }
